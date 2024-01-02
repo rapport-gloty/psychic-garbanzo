@@ -1,0 +1,99 @@
+
+body {
+  color:rgb(253, 253, 253);
+  background-color:rgb(0, 0, 0);
+  font-family:  Helvetica, sans-serif;
+  font-style: italic;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+}
+
+span.Fahrenheit
+{
+  color:rgb(240, 0, 0);
+  background-color: rgb(37, 35, 35);
+}
+
+
+
+
+
+.froom-group {
+  display: flex;
+  /* Use flexbox to make label and input share the line */
+  align-items: center;
+  /* Vertically align label and input */
+  width: 100%;
+  /* Make the container take the whole width */
+  margin-bottom: 30px;
+}
+
+.button-group {
+  display: flex;
+  /* Use flexbox to make buttons share the line */
+  align-items: center;
+  /* Vertically align label and input */
+  width: 100%;
+  /* Make the container take the whole width */
+  margin-top: 30px;
+}
+
+input {
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgb(233, 86, 86);
+  border: solid 10px rgba(254, 0, 0, 0.711);
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight:bolder;
+  font-style: oblique;
+  font-size: 40px;
+  color: aliceblue;
+  
+}
+
+::placeholder {
+  color: rgba(254, 252, 255, 0.711);
+  text-align: center;
+}
+
+.re-button,
+.con-button {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-right: 100px;
+  color:rgb(255, 255, 255);
+  background-color: rgb(90, 87, 87);
+  border: solid 5px rgb(15, 14, 14);
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* four equal columns */
+  gap: 20px;
+  /* Gap between columns */
+  max-width: 600px;
+  /* Set a maximum width for the form */
+  padding: 20px;
+}
+
+.rev-button {
+  color: black;
+  background-color: rgba(255, 0, 0, 0.711);
+  border-radius: 50px;
+  width: 100%;
+  border: solid 5px rgb(255, 255, 255);
+  padding: 12px 12px 12px 12px;
+  margin-right: 800px;
+  font-size: 40px;
+  font-weight: bold;
+}

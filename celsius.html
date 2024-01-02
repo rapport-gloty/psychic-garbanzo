@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="celsius.css">
+  </head>
+  <body>
+   <h1>Convert Fahrenheit <span class="Fahrenheit">(F)</span> to Celsius <span class="Fahrenheit">(C)</span></h1> 
+
+   <div class="froom-group container">
+    <input placeholder="from" class="froom Fahrenheit-js">
+    <label class="Fahrenheit-label">
+     <b>Fahrenheit</b>
+    </label>
+   </div>
+    
+   </div>
+   <div class="froom-group container">
+    <input placeholder="to" class="froom Celsius-js"> 
+    <label class="Celsius-label">
+      <b>Celsius</b>
+    </label>
+   </div>
+   
+   <div class="button-group">
+    <button class="con-button" onclick="
+      convertIt();
+    ">Convert</button>
+    <button class="re-button" onclick="
+    resetForm()
+    ">Reset</button>
+    <button class="rev-button" onclick="
+    reverseIt();
+    ">REVERSE</button>
+  </div>
+  
+  
+   
+
+   <script src="celsius.js"></script>
+
+  </body>
+</html>

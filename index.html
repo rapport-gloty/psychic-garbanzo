@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="metric.css">
+  </head>
+  <body>
+   <h1>Convert feet <span class="foot">(ft)</span> to meters <span class="foot">(m)</span></h1> 
+
+   <div class="froom-group container">
+    <input placeholder="from" class="froom feet-js">
+    <label class="feet-label">
+     <b>FEET</b>
+    </label>
+   </div>
+    
+   </div>
+   <div class="froom-group container">
+    <input placeholder="to" class="froom meters-js"> 
+    <label class="meters-label">
+      <b>METERS</b>
+    </label>
+   </div>
+   
+   <div class="button-group">
+    <button class="con-button" onclick="
+      convertIt();
+    ">Convert</button>
+    <button class="re-button" onclick="
+    resetForm()
+    ">Reset</button>
+    <button class="rev-button" onclick="
+    reverseIt();
+    ">REVERSE</button>
+  </div>
+  <div class="linkIt">
+    <a href="celsius.html">see Fahrenheit to Celsius</a>
+  </div>
+  
+  
+   
+
+   <script src="metric.js"></script>
+
+  </body>
+</html>
